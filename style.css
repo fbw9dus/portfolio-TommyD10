@@ -11,11 +11,21 @@
 }
 
 .header img{
-    width: 100%;
+    
     padding:50px;
     border:2px solid rgb(122, 111, 111);
 
 }
+
+@media only screen and (max-width:420px) {
+    .header img{
+        width:100%;
+    }
+}
+
+
+
+
 
 
 
